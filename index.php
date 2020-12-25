@@ -135,7 +135,6 @@ if($_SERVER['HTTPS'] != "on"){ ?>
 		  });
 	  });
 	}) 
-	// Result
 	</script>
 	<br><button id="next" class="btn btn-success" style="display: none;">다음</button><br>
       </div>
