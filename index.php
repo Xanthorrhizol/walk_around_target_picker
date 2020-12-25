@@ -69,7 +69,7 @@ if($_SERVER['HTTPS'] != "on"){ ?>
 	  });
 
 	  q.setAttribute("class", "p calign");
-	  q.innerHTML="<br>어디에 계신가요?<br><br>";
+	  q.innerHTML="<br>어디에 계시나요?<br><br>";
 	  var btn = document.getElementById("next");
 	  btn.removeAttribute("style");
 	  btn.addEventListener("click", function question1() {
