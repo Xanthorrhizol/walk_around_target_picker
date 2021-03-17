@@ -1,9 +1,3 @@
-<?php
-if($_SERVER['HTTPS'] != "on"){ ?>
-	<script>
-	location.replace("https://<?php echo $_SERVER['SERVER_NAME'];?>");
-	</script>
-<?php } ?>
 <!DOCTYPE html>
 <html>
   <head>
